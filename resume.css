@@ -1,0 +1,75 @@
+body {
+    margin: 40px;
+    background-image: url(pinkBlue.jpeg);
+}
+
+  svg{
+    fill:linen;
+    height: 100px;
+    animation: fill 5s linear infinite;
+    -webkit-animation: fill 5s linear infinite;
+
+  }
+
+  svg:hover{
+    fill: rgb(58, 47, 79);
+    /*width: 60%;
+    height: 60%;*/
+  }
+
+@keyframes svg{
+    0%{
+      fill: linen;
+    }
+    50%{
+      fill: rgb(58, 47, 79);
+    }
+}
+  
+  h1 {
+    margin: 0;
+    color :linen;
+    font-family: 'Lora', serif;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    padding: 0px;
+  }
+
+  h3 {
+    color:#857185;
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  ul, dl, p {
+    margin-left: 30px;
+    padding-left: 10px;
+    list-style: none;
+    line-height: 1.6em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    color: rgb(58, 47, 79);
+  }
+  
+  ul, dl, td {
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(58, 47, 79);
+
+  }
+  
+  dd {
+    font-style: italic;
+    color: rgb(58, 47, 79);
+    font-family: 'Lato', sans-serif;
+  }
+  
+  time {
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: rgb(58, 47, 79);
+  }
